@@ -17,7 +17,7 @@ const Item = styled.li`
     background-size: cover;
     margin-top: 30px;
     margin-right: 30px;
-    font-size: 30px;
+    font-size: 20px;
     padding: 15px;
     color: white;
     z-index: 1;
@@ -41,12 +41,13 @@ const Item = styled.li`
     }
 `;
 
-export const ListItem = ( { itemList } ) => (
+export const ListItem = ( { itemList, setOpenItem } ) => (
     <List>
         {itemList.map(item => (
             <Item 
                 key={item.id}
-                img={item.img}>
+                img={item.img}
+                onClick={() => setOpenItem(item)}>
                 <p>{item.name}</p>
                 <p>{item.price.toLocaleString('ru-RU', {style: 'currency', currency: 'RUB'})}</p>
             </Item>
