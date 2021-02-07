@@ -42,7 +42,7 @@ const Total = styled.div`
 const TotalPrice = styled.span`
     text-align: right;
     min-width: 65px;
-    margin-left: 20px;
+    margin-left: 20px;  
 
 `;
 
