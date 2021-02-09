@@ -51,7 +51,7 @@ const dbMenu = {
 			choices: ['Coca-cola', 'Fanta', 'Mirinda', 'Sprite'],
 		},
 		{
-			name: 'Чайкофф',
+			name: 'Чай',
 			img: '/menu/tea.png',
 			id: 2,
 			price: 70,
@@ -64,7 +64,7 @@ const dbMenu = {
 			price: 75,
 		},
 		{
-			name: 'Нагиевцы',
+			name: 'Наггетсы',
 			img: '/menu/nuggets.png',
 			id: 4,
 			price: 100,
