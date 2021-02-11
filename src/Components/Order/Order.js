@@ -76,6 +76,8 @@ export const Order = ( { orders, setOrders, authentication, logIn, firebaseDatab
             order: newOrder
         });
 
+        setOrders([]);
+
 
 
     }
