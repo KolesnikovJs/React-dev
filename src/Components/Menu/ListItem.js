@@ -52,7 +52,7 @@ export const ListItem = ( { itemList, setOpenItem } ) => (
                 <p>{item.name}</p>
                 <p>{formatCurrency(item.price)}</p>
             </Item>
-        ))};
+        ))}
 
     </List>
 );

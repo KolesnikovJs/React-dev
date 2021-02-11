@@ -36,7 +36,7 @@ export const Menu = ( {setOpenItem} ) => {
                 <h2>Закуски и Напитки</h2>
                 <ListItem 
                 itemList={dbMenu.other}
-                setOpenItem={setOpenItem}/>/>
+                setOpenItem={setOpenItem}/>
             </SectionMenu>
             </> : res.error ?
             <div>Sorry , we will fix it soon</div> : 
